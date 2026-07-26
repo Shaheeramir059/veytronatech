@@ -1,26 +1,26 @@
 # VeytronaTech website
 
-PHP 8.2+ portfolio and business website using SQLite, with reusable layout components, a secure contact workflow, and a small admin inbox.
+Vercel-ready static website with Node.js Functions, a hosted Postgres contact inbox, and a protected browser-based admin inbox.
 
-## Run locally
+## Deploy on Vercel
 
-1. Ensure PHP has the `pdo_sqlite` extension enabled.
-2. From this directory, run `php -S localhost:8000`.
-3. Visit `http://localhost:8000`.
+1. Create a Neon or Supabase Postgres database. For Supabase, use its transaction-pooler connection string for serverless traffic.
+2. In Vercel, import this GitHub repository.
+3. Add these Vercel environment variables for Production, Preview, and Development:
 
-The SQLite file is created automatically on the first contact or admin request. The `database/` directory must be writable by PHP.
+   - `DATABASE_URL` — your pooled Postgres connection string
+   - `SESSION_SECRET` — a long random value
+   - `ADMIN_PASSWORD_HASH` — generate it with `npm run hash-password -- "your-long-password"`
 
-## Admin setup
+4. Deploy. The contact form is at `/contact`; the inbox is at `/admin/login`.
 
-Before the first admin login, set a strong environment variable named `VEYTRONATECH_ADMIN_PASSWORD`; the application hashes it using `password_hash()` while creating the administrator account at `admin@veytronatech.com`.
+Vercel installs the dependencies from `package.json` and serves the clean routes configured in `vercel.json`.
 
-For PowerShell during local development:
+## Local development
 
 ```powershell
-$env:VEYTRONATECH_ADMIN_PASSWORD = 'use-a-long-unique-password'
-php -S localhost:8000
+npm install
+npx vercel dev
 ```
 
-Then sign in at `/admin/login.php`. Never commit credentials or a generated `database/veytronatech.sqlite` file.
-
-Set `SITE_URL` in `config/config.php` to the deployed HTTPS address before launch.
+Copy `.env.example` to `.env.local` and set real values before running locally. Never commit `.env.local`.

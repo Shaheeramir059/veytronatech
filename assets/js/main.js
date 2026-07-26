@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!demoCta) {
       demoCta = document.createElement('a');
       demoCta.className = 'text-link demo-cta';
-      demoCta.href = 'contact.php';
+      demoCta.href = '/contact';
       demoCta.textContent = 'Continue with this idea →';
       response.after(demoCta);
     }

@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>http://localhost:8000/</loc></url><url><loc>http://localhost:8000/about.php</loc></url><url><loc>http://localhost:8000/services.php</loc></url><url><loc>http://localhost:8000/portfolio.php</loc></url><url><loc>http://localhost:8000/contact.php</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://your-domain.example/</loc></url>
+  <url><loc>https://your-domain.example/about</loc></url>
+  <url><loc>https://your-domain.example/services</loc></url>
+  <url><loc>https://your-domain.example/portfolio</loc></url>
+  <url><loc>https://your-domain.example/build-solution</loc></url>
+  <url><loc>https://your-domain.example/contact</loc></url>
+</urlset>

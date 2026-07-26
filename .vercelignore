@@ -1,0 +1,6 @@
+*.php
+admin/*.php
+includes/*.php
+config/*.php
+database/*.sqlite
+database/*.sqlite-*
