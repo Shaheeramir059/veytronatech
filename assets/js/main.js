@@ -91,11 +91,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const links = document.querySelector('.nav-links');
   const closeMenu = () => {
     links?.classList.remove('open');
+    document.body.classList.remove('nav-open');
     menu?.setAttribute('aria-expanded', 'false');
     menu?.setAttribute('aria-label', 'Open navigation');
   };
   menu?.addEventListener('click', () => {
     const open = links.classList.toggle('open');
+    document.body.classList.toggle('nav-open', open);
     menu.setAttribute('aria-expanded', String(open));
     menu.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
   });
@@ -105,6 +107,9 @@ document.addEventListener('DOMContentLoaded', () => {
       closeMenu();
       menu?.focus();
     }
+  });
+  addEventListener('resize', () => {
+    if (innerWidth > 850) closeMenu();
   });
 
   if (!reducedMotion && 'IntersectionObserver' in window) {
