@@ -1,4 +1,72 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const siteUrl = 'https://veytronatech.vercel.app';
+  const route = location.pathname.replace(/\/$/, '') || '/';
+  const pageMetadata = {
+    '/': {
+      title: 'VeytronaTech | AI, Web Development & Digital Innovation',
+      description: 'VeytronaTech builds intelligent AI solutions, modern websites, automation systems, and digital experiences.'
+    },
+    '/contact': {
+      title: 'Contact VeytronaTech | Start a Digital Project',
+      description: 'Contact VeytronaTech to discuss AI solutions, websites, web applications, automation, or a digital product for your business.'
+    },
+    '/build-solution': {
+      title: 'Find the Right Digital Solution | VeytronaTech',
+      description: 'Explore the right AI, website, web application, e-commerce, or automation direction for your business with VeytronaTech.'
+    },
+    '/about': {
+      title: 'About VeytronaTech | Practical AI and Digital Products',
+      description: 'Learn how VeytronaTech combines AI, software engineering, and thoughtful digital design to solve real business problems.'
+    },
+    '/services': {
+      title: 'AI, Web Development and Automation Services | VeytronaTech',
+      description: 'VeytronaTech delivers AI solutions, web development, business automation, and digital innovation for useful real-world outcomes.'
+    },
+    '/portfolio': {
+      title: 'AI and Digital Product Portfolio | VeytronaTech',
+      description: 'Explore VeytronaTech projects in AI commerce, computer vision, and educational AI products.'
+    }
+  }[route];
+  if (pageMetadata) {
+    document.title = pageMetadata.title;
+    const setMeta = (selector, attribute, key, content) => {
+      let element = document.head.querySelector(selector);
+      if (!element) {
+        element = document.createElement('meta');
+        document.head.append(element);
+      }
+      element.setAttribute(attribute, key);
+      element.content = content;
+    };
+    setMeta('meta[name="description"]', 'name', 'description', pageMetadata.description);
+    setMeta('meta[name="robots"]', 'name', 'robots', 'index,follow');
+    const canonical = document.head.querySelector('link[rel="canonical"]') || document.head.appendChild(document.createElement('link'));
+    canonical.rel = 'canonical';
+    canonical.href = `${siteUrl}${route}`;
+    setMeta('meta[property="og:type"]', 'property', 'og:type', 'website');
+    setMeta('meta[property="og:title"]', 'property', 'og:title', pageMetadata.title);
+    setMeta('meta[property="og:description"]', 'property', 'og:description', pageMetadata.description);
+    setMeta('meta[property="og:url"]', 'property', 'og:url', `${siteUrl}${route}`);
+    setMeta('meta[property="og:image"]', 'property', 'og:image', `${siteUrl}/assets/images/veytronatech-logo-full.png`);
+    setMeta('meta[name="twitter:card"]', 'name', 'twitter:card', 'summary_large_image');
+    setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', pageMetadata.title);
+    setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', pageMetadata.description);
+    setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', `${siteUrl}/assets/images/veytronatech-logo-full.png`);
+    const schema = document.createElement('script');
+    schema.type = 'application/ld+json';
+    schema.textContent = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'VeytronaTech',
+      url: siteUrl,
+      logo: `${siteUrl}/assets/images/veytronatech-logo-full.png`,
+      description: pageMetadata.description,
+      email: 'shaheeramir059@gmail.com',
+      telephone: '+923337756155',
+      sameAs: ['https://github.com/Shaheeramir059']
+    });
+    document.head.append(schema);
+  }
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const header = document.querySelector('.site-header');
   const progress = document.createElement('div');

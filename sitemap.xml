@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://your-domain.example/</loc></url>
-  <url><loc>https://your-domain.example/about</loc></url>
-  <url><loc>https://your-domain.example/services</loc></url>
-  <url><loc>https://your-domain.example/portfolio</loc></url>
-  <url><loc>https://your-domain.example/build-solution</loc></url>
-  <url><loc>https://your-domain.example/contact</loc></url>
+  <url><loc>https://veytronatech.vercel.app/</loc></url>
+  <url><loc>https://veytronatech.vercel.app/about</loc></url>
+  <url><loc>https://veytronatech.vercel.app/services</loc></url>
+  <url><loc>https://veytronatech.vercel.app/portfolio</loc></url>
+  <url><loc>https://veytronatech.vercel.app/build-solution</loc></url>
+  <url><loc>https://veytronatech.vercel.app/contact</loc></url>
 </urlset>
