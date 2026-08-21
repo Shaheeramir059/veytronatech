@@ -4,10 +4,16 @@
   "private": true,
   "description": "VeytronaTech static website and Vercel Functions",
   "scripts": {
-    "build": "node -e \"console.log('Static site ready for Vercel')\"",
+    "build": "vite build --config 3d-experience/vite.config.js",
+    "dev": "vite --config 3d-experience/vite.config.js",
     "hash-password": "node scripts/hash-password.mjs"
   },
   "dependencies": {
-    "postgres": "^3.4.7"
+    "gsap": "^3.13.0",
+    "postgres": "^3.4.7",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
   }
 }

@@ -3,3 +3,6 @@
 .env
 .env.local
 node_modules/
+/assets/three/
+/3d-experience/dist/
+/3d-experience/public/
