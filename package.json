@@ -4,7 +4,7 @@
   "private": true,
   "description": "VeytronaTech static website and Vercel Functions",
   "scripts": {
-    "build": "vite build --config 3d-experience/vite.config.js",
+    "build": "node scripts/generate-seo-pages.mjs && vite build --config 3d-experience/vite.config.js",
     "dev": "vite --config 3d-experience/vite.config.js",
     "hash-password": "node scripts/hash-password.mjs"
   },

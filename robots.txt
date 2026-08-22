@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
-Sitemap: https://veytronatech.vercel.app/sitemap.xml
+Sitemap: https://www.veytronatech.com/sitemap.xml

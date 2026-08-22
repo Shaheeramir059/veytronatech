@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://veytronatech.vercel.app/</loc></url>
-  <url><loc>https://veytronatech.vercel.app/about</loc></url>
-  <url><loc>https://veytronatech.vercel.app/services</loc></url>
-  <url><loc>https://veytronatech.vercel.app/portfolio</loc></url>
-  <url><loc>https://veytronatech.vercel.app/build-solution</loc></url>
-  <url><loc>https://veytronatech.vercel.app/contact</loc></url>
+  <url><loc>https://www.veytronatech.com/</loc></url>
+  <url><loc>https://www.veytronatech.com/about</loc></url>
+  <url><loc>https://www.veytronatech.com/services</loc></url>
+  <url><loc>https://www.veytronatech.com/ai-development-services</loc></url>
+  <url><loc>https://www.veytronatech.com/ai-automation-services</loc></url>
+  <url><loc>https://www.veytronatech.com/ai-consulting-services</loc></url>
+  <url><loc>https://www.veytronatech.com/custom-web-development</loc></url>
+  <url><loc>https://www.veytronatech.com/web-application-development</loc></url>
+  <url><loc>https://www.veytronatech.com/ecommerce-development</loc></url>
+  <url><loc>https://www.veytronatech.com/3d-website-development</loc></url>
+  <url><loc>https://www.veytronatech.com/case-studies</loc></url>
+  <url><loc>https://www.veytronatech.com/contact</loc></url>
 </urlset>
