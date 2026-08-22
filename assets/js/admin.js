@@ -31,12 +31,12 @@ document.addEventListener('DOMContentLoaded', () => {
     target.replaceChildren();
     messages.forEach(message => {
       const row = document.createElement('tr');
-      row.innerHTML = `<td><strong>${escapeHtml(message.name)}</strong><br><span class="muted">${escapeHtml(message.email)}</span></td><td>${escapeHtml(message.project_type)}</td><td>${escapeHtml(message.message)}</td><td><button data-action="${message.status === 'read' ? 'unread' : 'read'}" data-id="${message.id}">${message.status === 'read' ? 'Mark unread' : 'Mark read'}</button> <button data-action="delete" data-id="${message.id}">Delete</button></td>`;
+      row.innerHTML = `<td><strong>${escapeHtml(message.name)}</strong><br><span class="muted">${escapeHtml(message.email)}</span></td><td>${escapeHtml(message.project_type)}</td><td>${escapeHtml(message.message)}</td><td><button data-action="${message.status === 'read' ? 'unread' : 'read'}" data-id="${escapeHtml(message.id)}">${message.status === 'read' ? 'Mark unread' : 'Mark read'}</button> <button data-action="delete" data-id="${escapeHtml(message.id)}">Delete</button></td>`;
       target.append(row);
     });
     target.querySelectorAll('button[data-action]').forEach(button => button.addEventListener('click', async () => {
       if (button.dataset.action === 'delete' && !confirm('Delete this message permanently?')) return;
-      await request('/api/admin/message-status', { method: 'POST', body: JSON.stringify({ id: Number(button.dataset.id), action: button.dataset.action }) });
+      await request('/api/admin/message-status', { method: 'POST', body: JSON.stringify({ id: button.dataset.id, action: button.dataset.action }) });
       loadMessages();
     }));
   };

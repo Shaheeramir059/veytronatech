@@ -1,4 +1,4 @@
-const { ensureSchema, getDb } = require('../lib/db');
+const { createLead } = require('../lib/db');
 const { badRequest, methodNotAllowed, serverError } = require('../lib/http');
 
 const projectTypes = new Set(['AI Solution', 'Website', 'Web Application', 'E-Commerce', 'Automation', 'Other']);
@@ -25,8 +25,7 @@ module.exports = async (request, response) => {
   if (values.company.length > 150 || values.budget.length > 100) return badRequest(response, 'One of your optional fields is too long.');
   if (values.message.length < 20 || values.message.length > 5000) return badRequest(response, 'Please describe your project in 20 to 5,000 characters.');
   try {
-    await ensureSchema();
-    await getDb()`INSERT INTO contact_messages (name, email, company, project_type, budget, message) VALUES (${values.name}, ${values.email}, ${values.company || null}, ${values.projectType}, ${values.budget || null}, ${values.message})`;
+    await createLead({ name: values.name, email: values.email, company: values.company || undefined, project_type: values.projectType, budget: values.budget || undefined, message: values.message });
     return response.status(201).json({ message: 'Thank you — your message was received. We will review it and be in touch.' });
   } catch (error) {
     console.error('Contact submission failed', error);

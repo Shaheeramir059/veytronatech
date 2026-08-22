@@ -9,8 +9,9 @@
     "hash-password": "node scripts/hash-password.mjs"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1116.0",
+    "@aws-sdk/lib-dynamodb": "^3.1116.0",
     "gsap": "^3.13.0",
-    "postgres": "^3.4.7",
     "three": "^0.170.0"
   },
   "devDependencies": {
