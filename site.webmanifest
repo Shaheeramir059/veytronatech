@@ -1,0 +1,11 @@
+{
+  "name": "VeytronaTech",
+  "short_name": "VeytronaTech",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ]
+}

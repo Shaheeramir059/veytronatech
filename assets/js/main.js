@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
       logo: `${siteUrl}/assets/images/veytronatech-logo-full.png`,
       description: pageMetadata.description,
       email: 'sales@veytronatech.com',
-      telephone: '+923337756155',
+      telephone: '+19296525122',
       sameAs: ['https://github.com/Shaheeramir059']
     });
     document.head.append(schema);
