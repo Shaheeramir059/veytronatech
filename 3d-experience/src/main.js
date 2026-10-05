@@ -248,7 +248,7 @@ form.addEventListener('submit', async event => {
     form.reset();
   } catch (error) {
     notice.className = 'notice error';
-    notice.textContent = `${error.message} You can also email sales@veytronatech.com.`;
+    notice.textContent = `${error.message} You can also email veytronatech@gmail.com.`;
     notice.hidden = false;
   } finally {
     button.disabled = false;
