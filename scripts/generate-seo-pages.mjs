@@ -56,6 +56,42 @@ const services = [
     faqs: [['Do you use templates for custom web development?', 'We choose the right technical approach for the job. Custom work means the structure, interaction, and integrations are shaped around your business requirements.'], ['Will the site work on mobile?', 'Yes. Responsive behavior, readable content, and usable tap targets are part of the development process.'], ['Can you integrate a CMS or third-party tool?', 'Yes, when the chosen platform and tool APIs are appropriate for the product requirements.']]
   },
   {
+    slug: 'website-development', short: 'Website Development', keyword: 'website development company',
+    title: 'Website Development Company for Businesses | VeytronaTech',
+    description: 'VeytronaTech plans, designs, and develops responsive, conversion-focused business websites for startups, small businesses, and growing teams, with custom integrations when needed.',
+    h1: 'Website Development for Businesses That Need More Than a Template',
+    intro: 'If you are looking for a website developer, VeytronaTech can take the project from planning and page structure through design, development, integrations, testing, and launch preparation. We build responsive business websites around the offer, customer journey, and systems the site needs to support.',
+    problems: ['An outdated website that no longer supports sales or credibility', 'A new business that needs a professional website built around clear buyer journeys', 'A site that needs better performance, mobile usability, forms, analytics, or integrations'],
+    capabilities: ['Business website design and development', 'Landing pages and conversion flows', 'Responsive mobile-first implementation', 'Contact, lead, and booking integrations', 'Analytics and measurement setup', 'Performance and technical SEO foundations'],
+    tech: ['HTML', 'CSS', 'JavaScript', 'Three.js when useful', 'APIs and forms', 'Analytics and structured data'],
+    useCases: 'Small businesses, startups, professional services, agencies, and growing companies that want a website developer to handle the project end to end instead of assembling disconnected tools.',
+    faqs: [['Can VeytronaTech build my business website end to end?', 'Yes. We can handle planning, information architecture, interface design, development, integrations, testing, and launch preparation as one website project.'], ['How do I choose a website development company?', 'Look for clear communication, relevant technical capability, responsive design, performance awareness, maintainable implementation, and evidence that the team understands the business goal rather than only the visual design.'], ['How much does a custom business website cost?', 'Website cost depends on the number and complexity of pages, custom design, integrations, content requirements, animation, e-commerce, and application features. We scope the work after understanding the required outcome rather than forcing every project into the same package.']]
+  },
+  {
+    slug: 'ai-website-development', short: 'AI Website Development', keyword: 'AI website development company',
+    title: 'AI Website Development Company | VeytronaTech',
+    description: 'VeytronaTech builds AI-powered websites that combine strong web development with useful AI features such as assistants, intelligent search, lead qualification, workflow automation, and data-driven experiences.',
+    h1: 'AI-Powered Website Development Built Around Useful Features',
+    intro: 'An AI website should still be a good website first. VeytronaTech combines responsive web development with task-focused AI features such as conversational assistance, intelligent search, lead qualification, recommendation logic, document or knowledge retrieval, and connected business workflows when those features genuinely improve the experience.',
+    problems: ['A website generates enquiries but the follow-up process is slow or manual', 'Customers struggle to find the right information, product, or next action', 'A business wants AI functionality without rebuilding its entire digital operation'],
+    capabilities: ['AI-assisted customer experiences', 'Conversational and knowledge interfaces', 'Lead qualification workflows', 'Intelligent search and retrieval', 'Recommendation and personalization concepts', 'Website-to-CRM and automation integrations'],
+    tech: ['Web applications', 'LLM APIs', 'Retrieval workflows', 'Business APIs', 'Analytics', 'Human handoff controls'],
+    useCases: 'Businesses that already need a high-quality website and have a specific customer, sales, support, or operational workflow where AI can reduce friction.',
+    faqs: [['What is an AI-powered website?', 'An AI-powered website combines normal web functionality with AI features that help users find information, complete tasks, receive relevant guidance, or connect website activity to business workflows.'], ['Can AI be added to an existing website?', 'Often, yes. The right approach depends on the existing stack, APIs, data, security needs, and the AI feature being added.'], ['What AI features are most useful on a business website?', 'The most useful features usually solve a specific problem: answering grounded questions, qualifying leads, improving search, routing enquiries, summarizing submitted information, or connecting a website interaction to an internal workflow.']]
+  },
+  {
+    slug: 'restaurant-website-development', short: 'Restaurant Websites', keyword: 'restaurant website development',
+    title: 'Restaurant Website Development & Booking Integrations | VeytronaTech',
+    description: 'VeytronaTech builds fast, mobile-friendly restaurant websites with menus, reservation and enquiry integrations, local conversion flows, analytics, and automation-ready architecture.',
+    h1: 'Restaurant Website Development Built for Reservations and Enquiries',
+    intro: 'Restaurant customers usually arrive with a simple intent: view the menu, check essential information, reserve a table, place an order, call, or get directions. VeytronaTech builds mobile-friendly restaurant websites around those actions, with clear menu presentation, reservation or enquiry integrations, analytics, and an architecture that can connect to automation when it makes operational sense.',
+    problems: ['Customers cannot quickly find the menu, hours, location, or reservation action', 'The restaurant depends on social profiles instead of an owned web experience', 'Enquiries and booking requests are fragmented across forms, calls, and third-party tools'],
+    capabilities: ['Mobile-first restaurant websites', 'Menu and location experiences', 'Reservation and booking integrations', 'Order and delivery links', 'Local conversion and contact flows', 'Automation-ready enquiry architecture'],
+    tech: ['Responsive web development', 'Reservation provider integrations', 'Maps and structured data', 'Analytics', 'Forms and APIs', 'Automation integrations'],
+    useCases: 'Independent restaurants, restaurant groups, cafes, hospitality concepts, and food businesses that need a faster path from discovery to menu, booking, order, or contact.',
+    faqs: [['Can a restaurant website connect to an existing reservation system?', 'Yes, when the reservation provider supports links, widgets, or APIs. We plan the integration around the restaurant’s current booking workflow rather than forcing a replacement.'], ['Can you build a mobile-friendly online menu?', 'Yes. The menu can be designed for fast mobile reading with clear categories, pricing, calls to action, and maintainable content structure.'], ['Can the website connect to AI or phone booking automation?', 'It can be designed to connect with automation workflows. Voice or phone booking automation should be scoped around the restaurant’s phone setup, reservation rules, menu data, provider integrations, and the situations that require human escalation.']]
+  },
+  {
     slug: 'web-application-development', short: 'Web Application Development', keyword: 'web application development company',
     title: 'Web Application Development Company | VeytronaTech',
     description: 'VeytronaTech delivers custom web application development for SaaS products, dashboards, admin portals, customer portals, internal tools, APIs, authentication, and cloud-ready systems.',
