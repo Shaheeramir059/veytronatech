@@ -97,5 +97,5 @@
       "destination": "/admin/messages.html"
     }
   ],
-  "buildCommand": "npm run build && node scripts/contact-email-fix.mjs"const fs=require('fs'); const files=fs.readdirSync('.').filter(f=>f.endsWith('.html')); if(fs.existsSync('assets/js/main.js')) files.push('assets/js/main.js'); for(const f of files){const s=fs.readFileSync(f,'utf8'); fs.writeFileSync(f,s.replaceAll('sales@veytronatech.com','veytronatech@gmail.com'));}\""
+  "buildCommand": "npm run build && node scripts/contact-email-fix.mjs"
 }
