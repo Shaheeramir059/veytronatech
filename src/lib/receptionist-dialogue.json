@@ -1,0 +1,114 @@
+{
+  "greeting-time": {
+    "text": "Good evening, and welcome. I'd be happy to help with your table request. What time would you prefer?",
+    "branch": "reservation/time"
+  },
+  "check": {
+    "text": "Thank you. Let me check the sample availability. This is a demonstration, so a host would confirm your request.",
+    "branch": "reservation"
+  },
+  "available-1900": {
+    "text": "There is a sample option at seven p.m. A member of staff would verify availability before confirming your table.",
+    "branch": "available"
+  },
+  "available-2000": {
+    "text": "There is a sample option at eight p.m. A member of staff would verify availability before confirming your table.",
+    "branch": "available"
+  },
+  "unavailable": {
+    "text": "I'm sorry, that time isn't available in this sample. Our host would be happy to help you find another option.",
+    "branch": "unavailable"
+  },
+  "large-party": {
+    "text": "For a larger party, I'd ask our host to help with seating arrangements. Your request would need a personal review before anything is confirmed.",
+    "branch": "large-party"
+  },
+  "greeting-info": {
+    "text": "Hello, and welcome. I'd be happy to help with restaurant information or a table request. What would you like to know?",
+    "branch": "information"
+  },
+  "information": {
+    "text": "For this sample restaurant, evening tables are shown between six thirty and eight p.m. Menu details, opening hours, and accessibility would be confirmed by the restaurant team.",
+    "branch": "information"
+  },
+  "guest-count": {
+    "text": "How many guests will be joining you? If anyone has a dietary or accessibility request, our host can help you plan your visit.",
+    "branch": "guest-count"
+  },
+  "occasion": {
+    "text": "That sounds lovely. I'll include a birthday note in the sample request. Our host would confirm any special arrangements with you personally.",
+    "branch": "special-occasion"
+  },
+  "handoff": {
+    "text": "Of course. In a connected service, I would pass your request to a host now. This demonstration stops at a handoff preview, so no call is transferred.",
+    "branch": "handoff"
+  },
+  "closing": {
+    "text": "Thank you for speaking with us. Your sample request remains unconfirmed. Our team would review the details before getting back to you. Have a lovely evening.",
+    "branch": "closing"
+  },
+  "summary-general": {
+    "text": "Your sample request is shown in the transcript. A host would review the guest count, time, and any special arrangements before confirming. Nothing has been booked.",
+    "branch": "summary"
+  },
+  "summary-2-1830": {
+    "text": "Let me summarize your request. A table for two guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-2-1900": {
+    "text": "Let me summarize your request. A table for two guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-2-2000": {
+    "text": "Let me summarize your request. A table for two guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-4-1830": {
+    "text": "Let me summarize your request. A table for four guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-4-1900": {
+    "text": "Let me summarize your request. A table for four guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-4-2000": {
+    "text": "Let me summarize your request. A table for four guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-6-1830": {
+    "text": "Let me summarize your request. A table for six guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-6-1900": {
+    "text": "Let me summarize your request. A table for six guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-6-2000": {
+    "text": "Let me summarize your request. A table for six guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-8-1830": {
+    "text": "Let me summarize your request. A table for eight guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-8-1900": {
+    "text": "Let me summarize your request. A table for eight guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-8-2000": {
+    "text": "Let me summarize your request. A table for eight guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-12-1830": {
+    "text": "Let me summarize your request. A table for twelve guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-12-1900": {
+    "text": "Let me summarize your request. A table for twelve guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  },
+  "summary-12-2000": {
+    "text": "Let me summarize your request. A table for twelve guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+    "branch": "summary"
+  }
+}

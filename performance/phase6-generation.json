@@ -1,0 +1,309 @@
+{
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "threads": 4,
+  "voice": "af_heart",
+  "speed": 0.95,
+  "modelLoadSeconds": 1.003,
+  "totalSeconds": 115.228,
+  "peakProcessRSSBytes": 929280000,
+  "gpuInference": false,
+  "count": 28,
+  "totalAudioBytes": 2527376,
+  "modelFiles": {
+    "kokoro-v1.0.onnx": {
+      "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.0.onnx",
+      "sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+      "bytes": 325505369
+    },
+    "voices-v1.0.bin": {
+      "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.0.bin",
+      "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+      "bytes": 28214398
+    }
+  },
+  "assets": [
+    {
+      "id": "greeting-time",
+      "generationAndExportSeconds": 2.171,
+      "lufs": -18.68,
+      "samplePeakDbFS": -1.955,
+      "truePeakDbTP": -1.83,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "check",
+      "generationAndExportSeconds": 2.882,
+      "lufs": -18.7,
+      "samplePeakDbFS": -1.895,
+      "truePeakDbTP": -1.88,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "available-1900",
+      "generationAndExportSeconds": 3.016,
+      "lufs": -18.77,
+      "samplePeakDbFS": -1.936,
+      "truePeakDbTP": -1.93,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "available-2000",
+      "generationAndExportSeconds": 3.069,
+      "lufs": -18.88,
+      "samplePeakDbFS": -1.906,
+      "truePeakDbTP": -1.91,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "unavailable",
+      "generationAndExportSeconds": 2.643,
+      "lufs": -18.93,
+      "samplePeakDbFS": -1.971,
+      "truePeakDbTP": -1.95,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "large-party",
+      "generationAndExportSeconds": 3.514,
+      "lufs": -18.5,
+      "samplePeakDbFS": -1.887,
+      "truePeakDbTP": -1.88,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "greeting-info",
+      "generationAndExportSeconds": 2.956,
+      "lufs": -18.79,
+      "samplePeakDbFS": -1.988,
+      "truePeakDbTP": -1.97,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "information",
+      "generationAndExportSeconds": 4.501,
+      "lufs": -18.65,
+      "samplePeakDbFS": -1.86,
+      "truePeakDbTP": -1.86,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "guest-count",
+      "generationAndExportSeconds": 3.182,
+      "lufs": -18.85,
+      "samplePeakDbFS": -1.903,
+      "truePeakDbTP": -1.86,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "occasion",
+      "generationAndExportSeconds": 3.343,
+      "lufs": -18.63,
+      "samplePeakDbFS": -1.655,
+      "truePeakDbTP": -1.64,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "handoff",
+      "generationAndExportSeconds": 3.766,
+      "lufs": -18.6,
+      "samplePeakDbFS": -1.835,
+      "truePeakDbTP": -1.83,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "closing",
+      "generationAndExportSeconds": 2.972,
+      "lufs": -18.9,
+      "samplePeakDbFS": -1.797,
+      "truePeakDbTP": -1.77,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-general",
+      "generationAndExportSeconds": 2.889,
+      "lufs": -18.63,
+      "samplePeakDbFS": -1.935,
+      "truePeakDbTP": -1.93,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-2-1830",
+      "generationAndExportSeconds": 4.68,
+      "lufs": -18.48,
+      "samplePeakDbFS": -1.924,
+      "truePeakDbTP": -1.9,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-2-1900",
+      "generationAndExportSeconds": 3.621,
+      "lufs": -18.52,
+      "samplePeakDbFS": -1.9,
+      "truePeakDbTP": -1.88,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-2-2000",
+      "generationAndExportSeconds": 3.684,
+      "lufs": -18.47,
+      "samplePeakDbFS": -1.923,
+      "truePeakDbTP": -1.92,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-4-1830",
+      "generationAndExportSeconds": 4.033,
+      "lufs": -18.47,
+      "samplePeakDbFS": -1.94,
+      "truePeakDbTP": -1.9,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-4-1900",
+      "generationAndExportSeconds": 5.116,
+      "lufs": -18.48,
+      "samplePeakDbFS": -1.934,
+      "truePeakDbTP": -1.89,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-4-2000",
+      "generationAndExportSeconds": 5.329,
+      "lufs": -18.44,
+      "samplePeakDbFS": -1.924,
+      "truePeakDbTP": -1.89,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-6-1830",
+      "generationAndExportSeconds": 5.231,
+      "lufs": -18.45,
+      "samplePeakDbFS": -1.906,
+      "truePeakDbTP": -1.91,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-6-1900",
+      "generationAndExportSeconds": 5.052,
+      "lufs": -18.48,
+      "samplePeakDbFS": -1.882,
+      "truePeakDbTP": -1.87,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-6-2000",
+      "generationAndExportSeconds": 4.901,
+      "lufs": -18.49,
+      "samplePeakDbFS": -1.961,
+      "truePeakDbTP": -1.92,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-8-1830",
+      "generationAndExportSeconds": 5.311,
+      "lufs": -18.43,
+      "samplePeakDbFS": -1.902,
+      "truePeakDbTP": -1.9,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-8-1900",
+      "generationAndExportSeconds": 5.045,
+      "lufs": -18.5,
+      "samplePeakDbFS": -1.667,
+      "truePeakDbTP": -1.66,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-8-2000",
+      "generationAndExportSeconds": 4.97,
+      "lufs": -18.45,
+      "samplePeakDbFS": -1.93,
+      "truePeakDbTP": -1.87,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-12-1830",
+      "generationAndExportSeconds": 5.355,
+      "lufs": -18.51,
+      "samplePeakDbFS": -1.864,
+      "truePeakDbTP": -1.83,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-12-1900",
+      "generationAndExportSeconds": 5.393,
+      "lufs": -18.52,
+      "samplePeakDbFS": -1.971,
+      "truePeakDbTP": -1.89,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    },
+    {
+      "id": "summary-12-2000",
+      "generationAndExportSeconds": 5.587,
+      "lufs": -18.45,
+      "samplePeakDbFS": -1.858,
+      "truePeakDbTP": -1.73,
+      "sampleRate": 24000,
+      "codec": "mp3",
+      "channels": 1
+    }
+  ],
+  "listeningVerified": false
+}

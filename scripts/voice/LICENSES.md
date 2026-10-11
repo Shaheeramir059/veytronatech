@@ -1,0 +1,11 @@
+# Offline receptionist voice provenance
+
+The shipped MP3s were synthesized locally from project-authored sample dialogue using **Kokoro-82M v1.0**, the preset **af_heart**, kokoro-onnx 0.6.1 and CPU ONNX Runtime. No person supplied a cloning sample. The website ships recordings, not model weights, Python packages or eSpeak binaries. This is a synthetic demonstration, not a real restaurant or voice service.
+
+- Model weights: **Apache License 2.0**, commercially usable under that license. See the [official model card](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/README.md) and [Apache license](https://www.apache.org/licenses/LICENSE-2.0). The author describes permissive training data; retain the following upstream provenance attribution: [Koniwa](https://github.com/koniwa/koniwa), CC BY 3.0, and [SIWIS](https://datashare.ed.ac.uk/handle/10283/2353), CC BY 4.0, are listed in the model card. The model license does not certify the copyright status or subjective quality of every generated output.
+- Preset selection: [official voices list](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md). `af_heart` is a female American English preset supplied with the model. No real person's identity is asserted or custom voice cloned.
+- ONNX conversion/runtime wrapper: [kokoro-onnx MIT license](https://github.com/thewh1teagle/kokoro-onnx/blob/main/LICENSE), copyright 2025 github.com/thewh1teagle. The exact release files and SHA-256 digests are in `models.lock.json`.
+- Offline tools have their own licenses, including ONNX Runtime (MIT), soundfile (BSD), libsndfile (LGPL), phonemizer/eSpeak NG (GPL) and the installed FFmpeg build's GPL components. These are isolated generation tools, not shipped client code. Do not redistribute the venv or tool binaries without their license/source obligations.
+- Chatterbox was evaluated but not installed or used. Its [MIT license](https://github.com/resemble-ai/chatterbox/blob/master/LICENSE) permits commercial software use with notices; no Chatterbox recordings or code are shipped.
+
+Commercial model use is permitted; owner approval of synthetic voice presentation, notices, listening quality and launch remains pending. This document does not grant rights to future uploaded cloning samples. Keep the model provenance, license texts and generated evidence with the project.

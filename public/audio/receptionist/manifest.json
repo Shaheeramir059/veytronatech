@@ -1,0 +1,287 @@
+{
+  "version": "v1",
+  "voice": "af_heart",
+  "model": "Kokoro-82M v1.0 ONNX",
+  "entries": {
+    "greeting-time": {
+      "id": "greeting-time",
+      "text": "Good evening, and welcome. I'd be happy to help with your table request. What time would you prefer?",
+      "branch": "reservation/time",
+      "path": "/audio/receptionist/v1-greeting-time-6256c8e26a62.mp3",
+      "duration": 6.02,
+      "version": "v1",
+      "bytes": 48812,
+      "sha256": "6256c8e26a624d1bc5c8b13a9173bd81276298819522f1af4adb2725b3a1e7d7"
+    },
+    "check": {
+      "id": "check",
+      "text": "Thank you. Let me check the sample availability. This is a demonstration, so a host would confirm your request.",
+      "branch": "reservation",
+      "path": "/audio/receptionist/v1-check-943c2e516d67.mp3",
+      "duration": 7.309,
+      "version": "v1",
+      "bytes": 59180,
+      "sha256": "943c2e516d67985c90afb999d082f49136e81212adb43cb8422ee61ea50110dd"
+    },
+    "available-1900": {
+      "id": "available-1900",
+      "text": "There is a sample option at seven p.m. A member of staff would verify availability before confirming your table.",
+      "branch": "available",
+      "path": "/audio/receptionist/v1-available-1900-d99a476e18e0.mp3",
+      "duration": 7.73,
+      "version": "v1",
+      "bytes": 62636,
+      "sha256": "d99a476e18e0d7bd526a6f4d6b40a49d3a88bb8668a45a414e781a272b169939"
+    },
+    "available-2000": {
+      "id": "available-2000",
+      "text": "There is a sample option at eight p.m. A member of staff would verify availability before confirming your table.",
+      "branch": "available",
+      "path": "/audio/receptionist/v1-available-2000-36fddd434aee.mp3",
+      "duration": 7.683,
+      "version": "v1",
+      "bytes": 62252,
+      "sha256": "36fddd434aee9f3b2917da0db02a3271ba53c5e944ad4d9a6338dc699253f94b"
+    },
+    "unavailable": {
+      "id": "unavailable",
+      "text": "I'm sorry, that time isn't available in this sample. Our host would be happy to help you find another option.",
+      "branch": "unavailable",
+      "path": "/audio/receptionist/v1-unavailable-e8a4a1b41ef7.mp3",
+      "duration": 6.258,
+      "version": "v1",
+      "bytes": 50732,
+      "sha256": "e8a4a1b41ef7e92eb730cdefc791262975e5ef17f577f9cd6f55c8e8d2f6f880"
+    },
+    "large-party": {
+      "id": "large-party",
+      "text": "For a larger party, I'd ask our host to help with seating arrangements. Your request would need a personal review before anything is confirmed.",
+      "branch": "large-party",
+      "path": "/audio/receptionist/v1-large-party-3b6ae832b776.mp3",
+      "duration": 8.939,
+      "version": "v1",
+      "bytes": 72236,
+      "sha256": "3b6ae832b7769df402a8d5aed04c8faf25f58fbb59d2dbc6972f064e2fea1561"
+    },
+    "greeting-info": {
+      "id": "greeting-info",
+      "text": "Hello, and welcome. I'd be happy to help with restaurant information or a table request. What would you like to know?",
+      "branch": "information",
+      "path": "/audio/receptionist/v1-greeting-info-e994f23e3951.mp3",
+      "duration": 7.418,
+      "version": "v1",
+      "bytes": 60140,
+      "sha256": "e994f23e3951ac0ff1d0f82d9c218f50e8f60c8a2740fe467b556dbf22d9a01c"
+    },
+    "information": {
+      "id": "information",
+      "text": "For this sample restaurant, evening tables are shown between six thirty and eight p.m. Menu details, opening hours, and accessibility would be confirmed by the restaurant team.",
+      "branch": "information",
+      "path": "/audio/receptionist/v1-information-53edabe20121.mp3",
+      "duration": 11.813,
+      "version": "v1",
+      "bytes": 95276,
+      "sha256": "53edabe20121e2ab6418e83d5d1e7661cd77cd67817326cd97430a9a4b828193"
+    },
+    "guest-count": {
+      "id": "guest-count",
+      "text": "How many guests will be joining you? If anyone has a dietary or accessibility request, our host can help you plan your visit.",
+      "branch": "guest-count",
+      "path": "/audio/receptionist/v1-guest-count-aff3f5fd23d1.mp3",
+      "duration": 7.934,
+      "version": "v1",
+      "bytes": 64172,
+      "sha256": "aff3f5fd23d1e12449f6be7aa09991692108b1c15d2b3dc7f0fff8433a3aa9b2"
+    },
+    "occasion": {
+      "id": "occasion",
+      "text": "That sounds lovely. I'll include a birthday note in the sample request. Our host would confirm any special arrangements with you personally.",
+      "branch": "special-occasion",
+      "path": "/audio/receptionist/v1-occasion-44ea128dd484.mp3",
+      "duration": 8.408,
+      "version": "v1",
+      "bytes": 68012,
+      "sha256": "44ea128dd484d5ea8366e6ee9b2e389dbe9fe886ea7004fffc27062fa6275e56"
+    },
+    "handoff": {
+      "id": "handoff",
+      "text": "Of course. In a connected service, I would pass your request to a host now. This demonstration stops at a handoff preview, so no call is transferred.",
+      "branch": "handoff",
+      "path": "/audio/receptionist/v1-handoff-952c5bbf7016.mp3",
+      "duration": 9.698,
+      "version": "v1",
+      "bytes": 78380,
+      "sha256": "952c5bbf7016c6ba8c071b45bf41c794babfd56295d69e7585a7614b6944a290"
+    },
+    "closing": {
+      "id": "closing",
+      "text": "Thank you for speaking with us. Your sample request remains unconfirmed. Our team would review the details before getting back to you. Have a lovely evening.",
+      "branch": "closing",
+      "path": "/audio/receptionist/v1-closing-9a4224aab98c.mp3",
+      "duration": 9.636,
+      "version": "v1",
+      "bytes": 77804,
+      "sha256": "9a4224aab98cbea0f4601770ee590a554ecf605735aab307a77e93877bf1028a"
+    },
+    "summary-general": {
+      "id": "summary-general",
+      "text": "Your sample request is shown in the transcript. A host would review the guest count, time, and any special arrangements before confirming. Nothing has been booked.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-general-292a9d6440db.mp3",
+      "duration": 10.427,
+      "version": "v1",
+      "bytes": 84140,
+      "sha256": "292a9d6440dbfe580e941b59f8fec35c5e2d0b7ddd816a3b79ae18633ac0de9c"
+    },
+    "summary-2-1830": {
+      "id": "summary-2-1830",
+      "text": "Let me summarize your request. A table for two guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-2-1830-356fc93fa79d.mp3",
+      "duration": 13.79,
+      "version": "v1",
+      "bytes": 111020,
+      "sha256": "356fc93fa79d90aa472c133bd1d1f13fce3a0c1d6a2fbbea6b9dc458a37aa097"
+    },
+    "summary-2-1900": {
+      "id": "summary-2-1900",
+      "text": "Let me summarize your request. A table for two guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-2-1900-f45b3f3bc51a.mp3",
+      "duration": 13.415,
+      "version": "v1",
+      "bytes": 107948,
+      "sha256": "f45b3f3bc51a30ce9625c54d9ce1d546ac2390735b036d5866ce347b0ddb4941"
+    },
+    "summary-2-2000": {
+      "id": "summary-2-2000",
+      "text": "Let me summarize your request. A table for two guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-2-2000-c2c62be5ad16.mp3",
+      "duration": 13.421,
+      "version": "v1",
+      "bytes": 108140,
+      "sha256": "c2c62be5ad16d7ad4b23618cfa754134f7d43d110a4132093bc0c791f1736576"
+    },
+    "summary-4-1830": {
+      "id": "summary-4-1830",
+      "text": "Let me summarize your request. A table for four guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-4-1830-00dcc735a950.mp3",
+      "duration": 13.846,
+      "version": "v1",
+      "bytes": 111404,
+      "sha256": "00dcc735a95005047dfec93bf1d92f6737ea7c1de9666fcc982f4e48b44ce6af"
+    },
+    "summary-4-1900": {
+      "id": "summary-4-1900",
+      "text": "Let me summarize your request. A table for four guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-4-1900-ae7f78c2f905.mp3",
+      "duration": 13.403,
+      "version": "v1",
+      "bytes": 107948,
+      "sha256": "ae7f78c2f905736f6a86b88a7b2102649be0485f457831401528366876f857ee"
+    },
+    "summary-4-2000": {
+      "id": "summary-4-2000",
+      "text": "Let me summarize your request. A table for four guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-4-2000-29dc53d2da65.mp3",
+      "duration": 13.39,
+      "version": "v1",
+      "bytes": 107756,
+      "sha256": "29dc53d2da65f3d4c72ba285f42ab197aa1e40aa3c4d60d4c59d8ff12b5edffc"
+    },
+    "summary-6-1830": {
+      "id": "summary-6-1830",
+      "text": "Let me summarize your request. A table for six guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-6-1830-b03cd8f8aa54.mp3",
+      "duration": 13.815,
+      "version": "v1",
+      "bytes": 111212,
+      "sha256": "b03cd8f8aa5461eba28e5bf372a4daedb2f34b987a2f25d197eb3df3aa130011"
+    },
+    "summary-6-1900": {
+      "id": "summary-6-1900",
+      "text": "Let me summarize your request. A table for six guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-6-1900-3c781d1473e0.mp3",
+      "duration": 13.595,
+      "version": "v1",
+      "bytes": 109484,
+      "sha256": "3c781d1473e04cf7072686695f478fd83cf3df9a9e40125873005531933c812d"
+    },
+    "summary-6-2000": {
+      "id": "summary-6-2000",
+      "text": "Let me summarize your request. A table for six guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-6-2000-a72d13348b66.mp3",
+      "duration": 13.446,
+      "version": "v1",
+      "bytes": 108332,
+      "sha256": "a72d13348b669a660f8f61d6a72d497fe516525d259a6a2177b5c42fc86b81c3"
+    },
+    "summary-8-1830": {
+      "id": "summary-8-1830",
+      "text": "Let me summarize your request. A table for eight guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-8-1830-d6466031aa35.mp3",
+      "duration": 13.898,
+      "version": "v1",
+      "bytes": 111980,
+      "sha256": "d6466031aa35d216ccfb8d4e1d7998bbaddc0f344c208545ea1324758d06c09b"
+    },
+    "summary-8-1900": {
+      "id": "summary-8-1900",
+      "text": "Let me summarize your request. A table for eight guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-8-1900-c3f1a75de4f3.mp3",
+      "duration": 13.54,
+      "version": "v1",
+      "bytes": 109100,
+      "sha256": "c3f1a75de4f3c8a80372a10ab8a2ca9c58d6814ff08aff8ec836b48462f920dc"
+    },
+    "summary-8-2000": {
+      "id": "summary-8-2000",
+      "text": "Let me summarize your request. A table for eight guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-8-2000-f002a886acc2.mp3",
+      "duration": 13.446,
+      "version": "v1",
+      "bytes": 108332,
+      "sha256": "f002a886acc272bb5923919c00daf09f6fc379b28c78ff3076c8b10b8c8893f4"
+    },
+    "summary-12-1830": {
+      "id": "summary-12-1830",
+      "text": "Let me summarize your request. A table for twelve guests, tomorrow evening at six thirty p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-12-1830-7b0c9a29235a.mp3",
+      "duration": 13.99,
+      "version": "v1",
+      "bytes": 112556,
+      "sha256": "7b0c9a29235abb6629793c0ac6fb71c5c12f22e9d79eec0846fefff8d01b03ce"
+    },
+    "summary-12-1900": {
+      "id": "summary-12-1900",
+      "text": "Let me summarize your request. A table for twelve guests, tomorrow evening at seven p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-12-1900-9f5b8854bcd1.mp3",
+      "duration": 13.59,
+      "version": "v1",
+      "bytes": 109484,
+      "sha256": "9f5b8854bcd1665859b08684193ffd137f5afd33c5d0a24347ea77f8002603ae"
+    },
+    "summary-12-2000": {
+      "id": "summary-12-2000",
+      "text": "Let me summarize your request. A table for twelve guests, tomorrow evening at eight p.m. Our host would verify these details before confirming. No reservation has been made in this demonstration.",
+      "branch": "summary",
+      "path": "/audio/receptionist/v1-summary-12-2000-2848bd0c77fa.mp3",
+      "duration": 13.521,
+      "version": "v1",
+      "bytes": 108908,
+      "sha256": "2848bd0c77fac3a28dd7f89b34eed421e971358056ccdd61c0c6bfc779b8940f"
+    }
+  }
+}
